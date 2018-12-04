@@ -1,40 +1,42 @@
 {
-    "name": "mandarindesign/craft-commerce-stock-notifications",
-    "description": "Add a signup form to out of stock products that automatically emails them when the product is back in stock.",
-    "type": "craft-plugin",
-    "version": "1.0.0",
-    "keywords": [
-        "craft",
-        "cms",
-        "craftcms",
-        "craft-plugin",
-        "craft commerce stock notifications"
-    ],
-    "support": {
-        "docs": "https://github.com/stianmandarin/craft-commerce-stock-notifications/blob/master/README.md",
-        "issues": "https://github.com/stianmandarin/craft-commerce-stock-notifications/issues"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mandarin Design",
-            "homepage": "https://mandarindesign.no"
-        }
-    ],
-    "require": {
-        "craftcms/cms": "^3.0.0-RC1"
-    },
-    "autoload": {
-        "psr-4": {
-          "mandarindesign\\craftcommercestocknotifications\\": "src/"
-        }
-    },
-    "extra": {
-        "name": "Craft Commerce Stock Notifications",
-        "handle": "craft-commerce-stock-notifications",
-        "hasCpSettings": false,
-        "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/stianmandarin/craft-commerce-stock-notifications/master/CHANGELOG.md",
-        "class": "mandarindesign\\craftcommercestocknotifications\\CraftCommerceStockNotifications"
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "name": "mandarindesign/craft-commerce-stock-notifications",
+  "description": "Add a signup form to out of stock products that automatically emails them when the product is back in stock.",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "craft commerce stock notifications"
+  ],
+  "support": {
+    "docs": "https://github.com/stianmandarin/craft-commerce-stock-notifications/blob/master/README.md",
+    "issues": "https://github.com/stianmandarin/craft-commerce-stock-notifications/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mandarin Design",
+      "homepage": "https://mandarindesign.no"
     }
+  ],
+  "require": {
+    "craftcms/cms": "^3.0.0-RC1"
+  },
+  "autoload": {
+    "psr-4": {
+      "mandarindesign\\craftcommercestocknotifications\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Craft Commerce Stock Notifications",
+    "handle": "craft-commerce-stock-notifications",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "changelogUrl": "https://raw.githubusercontent.com/stianmandarin/craft-commerce-stock-notifications/master/CHANGELOG.md",
+    "class": "mandarindesign\\craftcommercestocknotifications\\CraftCommerceStockNotifications"
+  }
 }
