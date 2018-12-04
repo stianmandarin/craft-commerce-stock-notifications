@@ -4,7 +4,6 @@
   "name": "mandarindesign/craft-commerce-stock-notifications",
   "description": "Add a signup form to out of stock products that automatically emails them when the product is back in stock.",
   "type": "craft-plugin",
-  "version": "1.0.0",
   "keywords": [
     "craft",
     "cms",
