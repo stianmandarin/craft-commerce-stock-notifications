@@ -28,8 +28,6 @@ To install the plugin, follow these instructions.
 
 ## Usage
 
-There are two ways.
-
 ### 1. Products without variants
 
 ```
